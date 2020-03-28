@@ -17,7 +17,7 @@ function HeroHead() {
   return (
     <>
       <div class="hero_textblock">
-        <p id="hero_txt">Hello I'm Abhinav Rastogi</p>
+        <p id="hero_txt">Hello I'm Abhinav</p>
       </div>
      
     </>
