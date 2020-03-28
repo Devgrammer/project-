@@ -1,0 +1,28 @@
+#heros {
+  height: 30rem;
+  width: 20rem;
+}
+
+#block1 {
+  display: block;
+  background-image: linear-gradient(70deg, #ff512f, #dd2476);
+  width: 20rem;
+  height: 30rem;
+  border-radius: 0.3rem;
+}
+
+.div_1 {
+  left: 26.5rem;
+  position: inherit;
+  top: 6rem;
+  z-index: 1;
+}
+
+.div_2 {
+  z-index: 0;
+  top: -21.5rem;
+  position: inherit;
+  left: 29rem;
+}
+
+
