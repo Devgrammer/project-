@@ -1,7 +1,7 @@
 #hero_txttop{
   position: relative;
   font-family: 'Roboto', sans-serif;
-  color: aliceblue;
+  color: white;
   opacity: 75%;
   font-weight: 700;
   font-size: 6rem;
@@ -21,7 +21,7 @@
   position: relative;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  color: aliceblue;
+  color: white;
   opacity: 75%;
   font-weight: 700;
   top: 6rem;
