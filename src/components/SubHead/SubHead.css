@@ -1,0 +1,9 @@
+#sub_hd{
+    font-size: 5rem;
+    font-weight: 750;
+    background: linear-gradient(70deg, #ff512f 0%, #dd2476 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -15rem;
+}

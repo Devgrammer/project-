@@ -5,7 +5,7 @@ import "./nav.css";
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" expand="md" variant="dark" fixed="top">
+      <Navbar bg="dark" expand="md" variant="dark" fixed="top" id="Nav_col">
         <Navbar.Brand href="#home" className="justify-content-center">
           Abhiarts
         </Navbar.Brand>
