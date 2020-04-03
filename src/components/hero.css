@@ -29,7 +29,7 @@
   position: relative;
   font-family: 'Roboto', sans-serif;
   color: aliceblue;
-  opacity: 75%;
+  filter: opacity(75%) ;
   font-weight: 700;
   font-size: 6rem;
   top: 1rem;
@@ -58,7 +58,7 @@
 #hero_txtname{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  opacity: 75%;
+  filter: opacity(75%) ;
   font-weight: 600;
   font-size: 6rem;
   top: 7.5rem;
