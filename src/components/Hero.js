@@ -1,5 +1,5 @@
 import React from "react";
-import ImgCrd from "./images";
+import { ImgCrd } from "./images";
 import "./hero.css";
 
 function HeroSec() {
