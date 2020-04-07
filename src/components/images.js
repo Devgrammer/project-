@@ -16,7 +16,7 @@ function ImgCrd() {
   );
 }
 
-function imgOverlay() {
+function ImgOverlay() {
   return (
     <>
       <div id ="div_3">
@@ -29,4 +29,4 @@ function imgOverlay() {
   
 }
 
-export { ImgCrd, imgOverlay };
+export { ImgCrd, ImgOverlay };

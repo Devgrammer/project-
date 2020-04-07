@@ -37,3 +37,9 @@
   }
 }
 
+/* Custom CSS addition for App.js module */
+#abt_me{
+  position: relative;
+  top:-15rem;
+}
+

@@ -1,3 +1,85 @@
 #abt_blk{
+    position: relative;
+    top: -29rem;
+    left: -8rem;
+    
+}
+
+#overlay{
+    position: relative;
     display: block;
+  background-image: linear-gradient(70deg, #ff512f, #dd2476);
+  width: 20rem;
+  height: 30rem;
+  border-radius: 0.3rem;
+  z-index: 2;
+  top:-59rem ;
+  left: -8rem;
+  filter: opacity(75%);
+
+}
+
+#overlay:hover{
+    filter: opacity(0%);
+   
+}
+
+#intro{
+    font-family: Roboto, sans-serif;
+    font-weight: 350;
+    font-size-adjust: inherit;
+    position: relative;
+    text-align:justify;
+    text-align-last: left;
+    word-wrap: break-word;
+    color: aliceblue;
+    width: 45rem;
+    top:-29rem;
+    left: -5rem;
+   
+}
+
+hr{
+    background-color: #1F1F1F;
+    
+}
+
+#nme{
+    filter: opacity(87%);
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-display: inherit;
+    
+}
+
+#transcript{
+    font-family:Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    filter:opacity(38%);
+}
+
+#para{
+    filter:opacity(60%)
+}
+
+.fas-frog{
+    color: #f0f8ff;
+    font-size: 3rem;
+    filter:opacity(38%);
+}
+
+.fas-frog:hover{
+    filter:opacity(65%);
+}
+ul{
+    position: relative;
+    bottom: 0.8rem;
+    right: 3.3rem;
+}
+
+li{
+    display: inline;
+    padding: 0.2rem;
+    
 }

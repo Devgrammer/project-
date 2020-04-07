@@ -3,10 +3,17 @@ import "./App.css";
 import { HeroSec, HeroHead } from "./components/Hero";
 import NavBar from "./components/Nav";
 import { Row, Col, Container } from "react-bootstrap";
-import Spec from "./components/Spec/special.js"
+import Spec from "./components/Spec/special.js";
 import SubHead from "./components/SubHead/SubHead.js";
-import AboutMe from "./components/about.js";
-import ChatBot from "./chat.js";
+import { AboutMe, Content } from "./components/about.js";
+import Quote from "./components/quote";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faTable } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faTable)
+
+// import ChatBot from "./chat.js";
 
 class App extends Component {
   render() {
@@ -31,18 +38,32 @@ class App extends Component {
             <Col>
               <SubHead subhd="Specialization" />
             </Col>
-            <Col><div><ChatBot /></div></Col>
+            {/* <Col><div><ChatBot /></div></Col> */}
           </Row>
           <Row>
             <Spec />
           </Row>
           <Row className="justify-content-center">
-            <Col ></Col>
-            <Col  className="text-nowrap"><SubHead subhd="About Me" /></Col>
+            <Col></Col>
+            <Col className="text-nowrap">
+              <div id="abt_me">
+                <SubHead subhd="About Me" />
+              </div>
+            </Col>
             <Col> </Col>
           </Row>
-          <Row >
-            <Col><AboutMe /></Col>
+          <Row>
+            <Col>
+              <AboutMe />
+            </Col>
+            <Col >
+              <Content />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Quote />
+            </Col>
           </Row>
         </Container>
       </>
