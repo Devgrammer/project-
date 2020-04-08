@@ -216,8 +216,8 @@ Main components
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
-    left: 122%;
-    top: 6px;
+    left: 105%;
+    top: 25px;
     font-size: 16px;
     font-size: 1rem;
   }
@@ -235,13 +235,21 @@ Main components
     float: right;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-    left: auto;
+    left:-30rem;
     right: 122%;
     text-align: right;
   }
 }
 
 #tm_blk{
-    
+    position: relative;
+    top: -35rem;
    
+}
+
+h1{
+    color: aliceblue;
+    filter: opacity(75%);
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
 }

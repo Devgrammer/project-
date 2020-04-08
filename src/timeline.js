@@ -4,8 +4,9 @@ import './timeline.css'
 function TimeLine() {
     return (
         <>
-            <h1>Hekooo</h1>
+           
             <div id="tm_blk">
+            <h1>Born<br />10 November, 1996</h1>
             <section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">

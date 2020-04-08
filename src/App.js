@@ -67,6 +67,15 @@ class App extends Component {
               <Quote />
             </Col>
           </Row>
+          <Row className="justify-content-center" >
+            <Col></Col>
+            <Col className="text-nowrap">
+            <div id="my_jrny">
+                <SubHead subhd=" My Journey" />
+              </div>
+            </Col>
+            <Col></Col>
+          </Row>
           <Row>
             <Col><TimeLine />
             </Col>
