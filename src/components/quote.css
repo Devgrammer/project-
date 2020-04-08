@@ -1,3 +1,28 @@
 #qte_blk{
     color: aliceblue;
+    position: relative;
+    left: -3.5rem;
+    top: -45rem;
 }
+
+#blk_qt{
+ font-family: Roboto, sans-serif;
+ font-size: 2.6rem;
+ font-weight: 800;
+ color: aliceblue;
+ filter: opacity(75%);
+ position: relative;
+
+}
+
+#writer{
+    font-family: Roboto, sans-serif;
+ font-size: 1.5rem;
+ font-style:italic;
+ font-weight: 400;  
+ color: aliceblue;
+ filter: opacity(75%);
+ position: relative;
+ left: 64.5rem;
+}
+

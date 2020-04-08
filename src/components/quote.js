@@ -7,8 +7,8 @@ function Quote() {
     return (
     <>
         <div id="qte_blk">
-          <blockquote>Hello</blockquote>
-         
+          <blockquote id="blk_qt">Please think about your legacy because you're writing it everyday.</blockquote>
+         <p id="writer">- Gary Vaynerchuk</p>
         </div>
     </>
 );

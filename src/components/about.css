@@ -34,7 +34,7 @@
     word-wrap: break-word;
     color: aliceblue;
     width: 45rem;
-    top:-29rem;
+    top:-29.5rem;
     left: -5rem;
    
 }
@@ -82,4 +82,44 @@ li{
     display: inline;
     padding: 0.2rem;
     
+}
+#cnr_vnlk{
+    position: relative;
+    display: block;
+    width: 2rem;
+    height: 6rem;
+    background-image: linear-gradient(70deg, #ff512f, #dd2476);
+    top: -31.7rem;
+    left:-9.5rem;
+
+}
+
+#cnr_hnlk{
+    position: relative;
+    display: block;
+    height: 2rem;
+    width: 6rem;
+    background-image: linear-gradient(70deg, #ff512f, #dd2476);
+    top: -33.7rem;
+    left:-9.5rem;
+}
+#cnr_vnlk1{
+    position: relative;
+    display: block;
+    width: 2rem;
+    height: 6rem;
+    background-image: linear-gradient(70deg, #ff512f, #dd2476);
+    top: -39.7rem;
+    left: 42.5rem;
+
+}
+
+#cnr_hnlk1{
+    position: relative;
+    display: block;
+    height: 2rem;
+    width: 6rem;
+    background-image: linear-gradient(-70deg, #ff512f, #dd2476);
+    top: -41.7rem;
+    left: 38.5rem;
 }

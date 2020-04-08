@@ -22,19 +22,15 @@ function Content() {
         <nobr />
         <p id="transcript">(/abhinav díp rastogi/)</p>
         <p id="para">
-          Lorem ullamco cupidatat magna voluptate consequat qui laboris irure in
-          cupidatat irure cupidatat. Nostrud eiusmod et pariatur non eu
-          voluptate nostrud. Officia proident voluptate exercitation laboris
-          Lorem esse pariatur qui exercitation labore minim aute cupidatat.
+        Experienced Associate with a demonstrated history of working in the non-profit organization management industry. As a Graphic Designer skilled in Adobe Illustrator, Adobe Photoshop, C++, UI/UX Design with Adobe XD and Figma. Strong professional with a Bachelor of Technology - BTech focused in Computer Engineering from Bharati Vidyapeeth (DU) College of Engineering.
           <br />
           Exercitation aute tempor ipsum ea dolore incididunt. Adipisicing in
           exercitation cillum Lorem commodo. Adipisicing ullamco aute sit aliqua
-          ullamco.
-          <br />
           Exercitation aute tempor ipsum ea dolore incididunt. Adipisicing in
           exercitation cillum Lorem commodo. Adipisicing ullamco aute sit aliqua
           ullamco.
         </p>
+        <hr></hr>
         <br />
         <ul type="none">
           <li>
@@ -86,6 +82,10 @@ function Content() {
         <hr></hr>
         <a href="#linkedin">See more</a>
       </p>
+      <span id="cnr_vnlk"></span>
+      <span id="cnr_hnlk"></span>
+      <span id="cnr_vnlk1"></span>
+      <span id="cnr_hnlk1"></span>
     </>
   );
 }

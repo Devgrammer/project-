@@ -7,11 +7,12 @@ import Spec from "./components/Spec/special.js";
 import SubHead from "./components/SubHead/SubHead.js";
 import { AboutMe, Content } from "./components/about.js";
 import Quote from "./components/quote";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faTable } from '@fortawesome/free-solid-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faTable } from "@fortawesome/free-solid-svg-icons";
+import TimeLine from './timeline'
 
-library.add(fab, faCheckSquare, faTable)
+library.add(fab, faCheckSquare, faTable);
 
 // import ChatBot from "./chat.js";
 
@@ -38,6 +39,7 @@ class App extends Component {
             <Col>
               <SubHead subhd="Specialization" />
             </Col>
+            <Col></Col>
             {/* <Col><div><ChatBot /></div></Col> */}
           </Row>
           <Row>
@@ -56,13 +58,17 @@ class App extends Component {
             <Col>
               <AboutMe />
             </Col>
-            <Col >
+            <Col>
               <Content />
             </Col>
           </Row>
-          <Row>
-            <Col>
+          <Row className="justify-content-center">
+            <Col className="text-nowrap">
               <Quote />
+            </Col>
+          </Row>
+          <Row>
+            <Col><TimeLine />
             </Col>
           </Row>
         </Container>
